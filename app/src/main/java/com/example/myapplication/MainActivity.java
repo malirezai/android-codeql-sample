@@ -15,6 +15,8 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
+    public string mysupersecretkey = "e8ccaf4f-9496-431b-b2a0-973b0ea8d018";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,11 +36,14 @@ public class MainActivity extends AppCompatActivity {
         MyTestMethod();
     }
 
-    void MyTestMethod() throws Exception{
+    void MyTestMethod(){
 
-        if(true) {
-            throw new Exception("This is an uncaught exception");
+        int[] x = new int[5];
+        for (int i = 0; i <= x.length; i++)
+        {
+            x[i] = i;
         }
+        
     }
 
     @Override
