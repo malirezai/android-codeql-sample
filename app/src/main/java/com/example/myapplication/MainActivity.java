@@ -15,7 +15,7 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
-    public string mysupersecretkey = "e8ccaf4f-9496-431b-b2a0-973b0ea8d018";
+    public String mysupersecretkey = "e8ccaf4f-9496-431b-b2a0-973b0ea8d018";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
